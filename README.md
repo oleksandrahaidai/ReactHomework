@@ -78,8 +78,13 @@ $ git rm .idea/ -r --cached
 git add -u .idea/
 git commit -m "Removed the .idea folder"
 
-
 -----------Перевіряємо чи працює tailwind після підключення:
 <div className="bg-blue-500 text-white p-6 m-4 rounded-lg shadow-xl">
-              Якщо цей блок синій, з відступами та заокругленими кутами — Tailwind працює!
-          </div>
+Якщо цей блок синій, з відступами та заокругленими кутами — Tailwind працює!
+</div>
+
+-----------#hQj9gOH
+
+Дані отримати з апі - https://dummyjson.com/products
+Створити необхідні моделі та компоненти щоб вивести всю інформацію з отриманих об'єктів
+Додати мінімальну стилізацію 

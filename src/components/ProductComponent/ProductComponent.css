@@ -1,0 +1,19 @@
+.title-style {
+    color: green;
+}
+
+.image-style {
+    width: 450px;
+    height: 450px;
+    border: green 2px solid;
+}
+
+.text-style {
+    width: 450px;
+    height: 60px;
+}
+
+.allInfo {
+    width: 450px
+;
+}
