@@ -83,3 +83,7 @@ git commit -m "Removed the .idea folder"
 <div className="bg-blue-500 text-white p-6 m-4 rounded-lg shadow-xl">
               Якщо цей блок синій, з відступами та заокругленими кутами — Tailwind працює!
           </div>
+
+#knZgVIwvqd
+На головній сторінці вивести всіх користувачів з Dummyjson API.
+При кліку на певного користувача вивести його корзини товарів, заміняючи(!!!!!) батьківський компонент списком з корзинами.
