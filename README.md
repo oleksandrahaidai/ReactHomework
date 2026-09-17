@@ -83,3 +83,6 @@ git commit -m "Removed the .idea folder"
 <div className="bg-blue-500 text-white p-6 m-4 rounded-lg shadow-xl">
               Якщо цей блок синій, з відступами та заокругленими кутами — Tailwind працює!
           </div>
+
+Є наступні сторінки: ProductsPage - відтворює продукти з api dummyjson.com (довільна розмітка та кількість інфи про об'єкт).
+Додати кнопки "вперед" "назад" для пагінації об'єктів.
