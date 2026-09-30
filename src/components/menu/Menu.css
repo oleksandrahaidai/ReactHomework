@@ -1,0 +1,14 @@
+ .item-decoration {
+     text-decoration-line: none;
+ }
+
+.menu-list {
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    list-style: none;
+}
+
+
+
