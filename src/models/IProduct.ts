@@ -1,5 +1,5 @@
-export interface IProduct {
-    id: number,
+export interface IProduct { //модель описує продукт, що приходить з 'https://dummyjson.com/auth/products'; використовується в подальшому для типізації в промісі,
+    id: number,            //що повертає асинхронна функція loadAuthProducts - проміс з масивом об'єктів типу IProduct
     title: string,
     description: string,
     category: string,

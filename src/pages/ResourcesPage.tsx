@@ -1,6 +1,6 @@
 import ResourcesComponent from "../components/ResourcesComponent/ResourcesComponent.tsx";
 
-const ResourcesPage = () => {
+const ResourcesPage = () => {  //сторінка ресурсів підтягує ResourcesComponent, який містить виклик функції завантаження продуктів
     return (
         <div>
             Resources Page
