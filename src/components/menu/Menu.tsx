@@ -3,9 +3,9 @@ import "./Menu.css"
 const Menu = () => {
     return (
         <div>
-            <ul>
-                <li className={'menu-style'}><Link to={'cars'}>cars</Link></li>
-                <li className={'menu-style'}><Link to={'cars/create'}>create car</Link></li>
+            <ul className="menu-style">
+                <li><Link to={'cars'}>cars</Link></li>
+                <li><Link to={'cars/create'}>create car</Link></li>
             </ul>
         </div>
     );

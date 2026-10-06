@@ -3,6 +3,7 @@ import type {ICar} from "../../models/ICar.ts";
 import {addCar} from "../../services/api.service.tsx";
 import {joiResolver} from "@hookform/resolvers/joi";
 import {carValidator} from "../../validators/CarValidator.tsx";
+import './FormComponent.css'
 
 const FormComponent = () => {
     const {handleSubmit, register, formState: {errors}} = useForm<ICar>({mode:'all', resolver: joiResolver(carValidator)})
@@ -12,7 +13,7 @@ const FormComponent = () => {
 
     return (
         <div>
-            <form onSubmit = {handleSubmit(handler)} >
+            <form className={'form-style'} onSubmit = {handleSubmit(handler)} >
                 <div>
                     <input type="text" {...register ('brand')}/>
                     <div>{errors.brand?.message}</div>

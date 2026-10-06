@@ -1,4 +1,11 @@
- .menu-style {
+ .menu-style a  {
    text-decoration-line: none;
-   list-style: none;
+   color: blue;
+ }
+
+ .menu-style li {
+     list-style: none;
+ }
+ .menu-style {
+   padding-left: 0;
  }

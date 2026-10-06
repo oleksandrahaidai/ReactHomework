@@ -1,0 +1,13 @@
+.form-style{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.form-style input{
+    border-color: aquamarine;
+}
+.form-style button {
+    background-color: aquamarine;
+    width: 100px;
+    height: 20px;
+}
