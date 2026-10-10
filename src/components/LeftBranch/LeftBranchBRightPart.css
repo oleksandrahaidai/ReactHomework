@@ -1,0 +1,12 @@
+.elements-position {
+   display: flex;
+   gap: 20px;
+}
+
+.button-style {
+    width: 150px;
+    height: 40px;
+    background-color: turquoise;
+    font-size: 14px;
+    font-weight: bold;
+}
